@@ -3,11 +3,11 @@
 #-----------------------------------------------------------------------------------------
 # This is a script to backup all your databases separately and delete old directories
 # It is developed from dloghis (if you like it please leave the comment)
-# Name your script "mysql-dump.sh" and place your script the directory /root/cron-scripts/
+# Name your script "postgresql-dump.sh" and place your script the directory /root/cron-scripts/
 # Add the following two lines in cron without the comment sign "#" for every day backup
 #
 # MAILTO=user@yourdomain.gr
-# 0 4 * * * /root/cron-scripts/mysql-dump.sh
+# 0 4 * * * /root/cron-scripts/postgresql-dump.sh
 #-----------------------------------------------------------------------------------------
 
 # Remember if someone can read your script he will know the MySQL root password
